@@ -1,0 +1,46 @@
+.container {
+  background-color: white;
+  height: 280px;
+  width: 380px;
+  border-radius: 25px 25px 0 0;
+
+  .img {
+    img {
+      width: 100%;
+      margin-top: 15px;
+    }
+  }
+
+  .title {
+    border-radius: 0 0 25px 25px;
+    background-color: #ea4335;
+    margin-top: 45px;
+    height: 60px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .silvertitle {
+    border-radius: 0 0 25px 25px;
+    background-color: #e8eaed;
+    margin-top: 45px;
+    height: 60px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .goldtitle {
+    border-radius: 0 0 25px 25px;
+    background-color: #fbbc04;
+    margin-top: 72px;
+    height: 60px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

@@ -1,14 +1,15 @@
-import DrawerAppBar from './component/topbar';
-import styles from './App.module.scss';
+import DrawerAppBar from "./component/topbar";
+import Banner from "./component/banner";
+import WhatIs from "./component/whatIs";
+import Sponsors from "./component/sponsors";
 
 function App() {
-
-  
-
   return (
     <div>
       <DrawerAppBar />
-      <img src="https://s4.gifyu.com/images/DF22_WebsiteHeader_Home_v03.gif" alt="DF22_WebsiteHeader_Home_v03.gif" border="0" className={styles.banner}/>
+      <Banner />
+      <WhatIs />
+      <Sponsors />
     </div>
   );
 }
