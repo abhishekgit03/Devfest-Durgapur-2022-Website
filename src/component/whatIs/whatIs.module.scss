@@ -1,0 +1,30 @@
+.background {
+  background-color: #202124;
+  width: 100%;
+  height: 50vh;
+
+  .title {
+    color: white;
+    padding: 45px;
+    font-weight: 500;
+  }
+  .container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    .img {
+      margin-left: 70px;
+      width: 20%;
+    }
+
+    .right {
+      .details {
+        padding: 0px 250px;
+        line-height: 2;
+        font-weight: 500;
+        font-size: 18px;
+        color: white;
+      }
+    }
+  }
+}

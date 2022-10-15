@@ -1,0 +1,18 @@
+.background {
+  background-color: #fbbd0431;
+  height: 80vh;
+
+  .head {
+    display: flex;
+    justify-content: center;
+    .title {
+      font-weight: 700;
+      font-size: 45px;
+    }
+  }
+
+  .sponsorRow {
+    display: flex;
+    justify-content: space-around;
+  }
+}
