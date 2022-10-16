@@ -109,7 +109,8 @@ const Team = () => {
             <LinkedInIcon className={styles.icon} />
             <TwitterIcon className={styles.icon} />
           </div>
-        </div><div className={styles.box}>
+        </div>
+        <div className={styles.box}>
           <img
             src="https://docs.google.com/drawings/d/e/2PACX-1vQaH8cWr0X-zOcFyNt5c6EEkbTT9QIwKJVpuHggrCZdJwpPHnlTUzxKGVaBSw_x-m0YliSZ8i50qYuw/pub?w=440&amp;h=440"
             className={styles.img}
