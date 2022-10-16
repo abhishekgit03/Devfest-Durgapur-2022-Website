@@ -1,0 +1,20 @@
+
+.App {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+    .title
+    {
+        margin-top: 10vh;;
+        text-align:center;
+        font-size: 5vh;
+        margin-bottom: -20vh;
+        color: lightgrey;
+    }
+    .timer
+    {
+        text-align: center;
+        font-size:20vh;
+    }
+  }
