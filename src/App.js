@@ -1,16 +1,19 @@
 import DrawerAppBar from "./component/topbar";
 import Banner from "./component/banner";
 import WhatIs from "./component/whatIs";
+import styles from "./App.module.scss";
 import Sponsors from "./component/sponsors";
-import Countdown from "./component/countdown"
+import Countdown from "./component/countdown";
+import Team from "./component/Team";
 function App() {
   return (
-    <div>
+    <div className={styles.body}>
       <DrawerAppBar />
       <Banner />
-      <Countdown/>
+      <Countdown />
       <WhatIs />
       <Sponsors />
+      <Team />
     </div>
   );
 }

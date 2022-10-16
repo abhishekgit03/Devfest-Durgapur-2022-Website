@@ -11,12 +11,11 @@ import ListItemButton from "@mui/material/ListItemButton";
 import ListItemText from "@mui/material/ListItemText";
 import MenuIcon from "@mui/icons-material/Menu";
 import Toolbar from "@mui/material/Toolbar";
-import Typography from "@mui/material/Typography";
 import Button from "@mui/material/Button";
 import styles from "./topbar.module.scss";
 
 const drawerWidth = 240;
-const navItems = ["Home", "About", "Sponsors","Speakers","Team"];
+const navItems = ["Home", "About", "Sponsors", "Speakers", "Team"];
 
 function DrawerAppBar(props) {
   const { window } = props;
@@ -28,14 +27,16 @@ function DrawerAppBar(props) {
 
   const drawer = (
     <Box onClick={handleDrawerToggle} sx={{ textAlign: "center" }}>
-      <Typography variant="h6" sx={{ my: 2 }}>
-        MUI
-      </Typography>
+      <img
+        src="https://docs.google.com/drawings/d/e/2PACX-1vTuQ9uh4LtAozgty1TBGtQo3vl77_XGMSRAulJxpFQyqxbZvXk42ECcCWVskGFno3_wUH3Gl48xOfWb/pub?w=1920&amp;h=1080"
+        alt=""
+        className={styles.logo}
+      />
       <Divider />
       <List>
         {navItems.map((item) => (
           <ListItem key={item} disablePadding>
-            <ListItemButton sx={{ textAlign: "center"}}>
+            <ListItemButton sx={{ textAlign: "center" }}>
               <ListItemText primary={item} />
             </ListItemButton>
           </ListItem>
@@ -67,7 +68,13 @@ function DrawerAppBar(props) {
           />
           <Box sx={{ display: { xs: "none", sm: "block" } }}>
             {navItems.map((item) => (
-              <Button key={item} sx={{ color: "#202124", backgroundColor:"#E5E4E2", marginRight: "20px" }}>
+              <Button
+                key={item}
+                sx={{
+                  color: "#202124",
+                  marginRight: "20px",
+                }}
+              >
                 {item}
               </Button>
             ))}
