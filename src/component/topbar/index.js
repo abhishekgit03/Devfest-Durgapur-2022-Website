@@ -35,7 +35,7 @@ function DrawerAppBar(props) {
       <List>
         {navItems.map((item) => (
           <ListItem key={item} disablePadding>
-            <ListItemButton sx={{ textAlign: "center" }}>
+            <ListItemButton sx={{ textAlign: "center"}}>
               <ListItemText primary={item} />
             </ListItemButton>
           </ListItem>
@@ -67,7 +67,7 @@ function DrawerAppBar(props) {
           />
           <Box sx={{ display: { xs: "none", sm: "block" } }}>
             {navItems.map((item) => (
-              <Button key={item} sx={{ color: "#202124", marginRight: "20px" }}>
+              <Button key={item} sx={{ color: "#202124", backgroundColor:"#E5E4E2", marginRight: "20px" }}>
                 {item}
               </Button>
             ))}

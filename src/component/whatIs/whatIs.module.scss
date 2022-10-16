@@ -1,20 +1,23 @@
 .background {
   background-color: #202124;
   width: 100%;
-  height: 50vh;
+  height:fit-content;
+   
 
   .title {
     color: white;
     padding: 45px;
     font-weight: 500;
+    
   }
   .container {
     display: flex;
     justify-content: space-around;
     align-items: center;
+   
     .img {
       margin-left: 70px;
-      width: 20%;
+      width: 30%;
     }
 
     .right {
