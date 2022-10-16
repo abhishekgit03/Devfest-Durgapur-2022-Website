@@ -22,11 +22,25 @@
     }
   }
 
+  @keyframes slide {
+    0% {
+      transform: translate3d(0, 0, 0);
+    }
+    100% {
+      transform: translate3d(-650px, 0, 0);
+    }
+  }
+
   .container {
     display: flex;
-    overflow-x: auto;
-    gap: 55px;
+    gap: 35px;
     justify-content: space-between;
+    animation: slide 8s linear infinite;
+
+    &:hover {
+      overflow-x: auto;
+      animation: none;
+    }
 
     .box {
       display: flex;
@@ -39,12 +53,12 @@
       }
 
       .img {
-        width: 250px;
+        width: 200px;
         transition: width 0.2s ease-out;
         object-fit: cover;
         border-radius: 50%;
         &:hover {
-          width: 270px;
+          width: 210px;
           box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2),
             0 8px 20px 0 rgba(0, 0, 0, 0.19);
         }
@@ -56,7 +70,7 @@
         justify-content: center;
 
         .icon {
-          font-size: 30px;
+          font-size: 20px;
           cursor: pointer;
           &:hover {
             color: skyblue;
