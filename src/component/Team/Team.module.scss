@@ -6,10 +6,11 @@
   .title {
     display: flex;
     justify-content: center;
+    overflow: hidden;
     .bg {
       margin: 0;
       font-weight: 900;
-      font-size: 15em;
+      font-size: 13vw;
       position: relative;
       letter-spacing: 15px;
       color: rgba(55, 0, 253, 0.068);
@@ -18,7 +19,7 @@
       letter-spacing: 35px;
       position: absolute;
       margin-top: 90px;
-      font-size: 6em;
+      font-size: 5vw;
     }
   }
 
@@ -34,7 +35,7 @@
 
   .container {
     display: flex;
-    gap: 35px;
+    gap: 2vw;
     justify-content: space-between;
     max-width: 100%;
     width: 500%;
@@ -52,12 +53,12 @@
       }
 
       .img {
-        width: 200px;
+        width: 10vw;
         transition: width 0.2s ease-out;
         object-fit: cover;
         border-radius: 50%;
         &:hover {
-          width: 210px;
+          width: 11vw;
           box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2),
             0 8px 20px 0 rgba(0, 0, 0, 0.19);
         }
