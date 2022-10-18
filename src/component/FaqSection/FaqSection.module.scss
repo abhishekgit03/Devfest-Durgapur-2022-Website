@@ -1,0 +1,34 @@
+.background {
+  background-color: #202124;
+  display: flex;
+  color: white;
+  padding: 25px;
+  justify-content: space-between;
+  .left {
+    .title {
+      color: #fbbc04;
+    }
+    .subtitle {
+      margin-top: 5px;
+      margin-bottom: 0;
+    }
+    .details {
+      font-size: 1.8vh;
+
+      span {
+        color: #fbbc04;
+      }
+    }
+  }
+  .faq {
+    width: 50%;
+  }
+
+  @media only screen and (max-width: 800px) {
+    flex-direction: column;
+
+    .faq{
+        width: 100%;
+    }
+  }
+}
