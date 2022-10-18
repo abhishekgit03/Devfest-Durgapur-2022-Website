@@ -1,9 +1,11 @@
 
 .App {
+    
    display: flex;
    justify-content: center;
    align-items: center;
    flex-direction: column;
+   max-height: fit-content;
     .title
     {
         margin-top: 10vh;;

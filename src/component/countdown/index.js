@@ -3,7 +3,7 @@ import CountDownTimer from './countdowntimer.js';
 
 function Countdown() {
 
-    const hoursMinSecs = {hours:41, minutes: 11, seconds: 40}
+    const hoursMinSecs = {day:40, hours:23, minutes: 11, seconds: 40}
   
     return (
        
