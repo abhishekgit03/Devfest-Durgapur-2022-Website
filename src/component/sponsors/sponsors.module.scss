@@ -1,10 +1,13 @@
 .background {
-  background-color: #fbbd0431;
+  background-color: white;
   height: 60vh;
+  margin-bottom: 15vh;
 
   .head {
     display: flex;
     justify-content: center;
+    margin-bottom: 5vh;
+    
     .title {
       font-weight: 700;
       font-size: 45px;
@@ -13,6 +16,7 @@
 
   .sponsorRow {
     display: flex;
+    
     justify-content: space-around;
   }
 }
