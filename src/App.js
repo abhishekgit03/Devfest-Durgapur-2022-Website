@@ -5,6 +5,7 @@ import styles from "./App.module.scss";
 import Sponsors from "./component/sponsors";
 import Countdown from "./component/countdown";
 import Team from "./component/Team";
+import FAQ from "./component/FaqSection";
 function App() {
   return (
     <div className={styles.body}>
@@ -14,6 +15,7 @@ function App() {
       <WhatIs />
       <Sponsors />
       <Team />
+      <FAQ />
     </div>
   );
 }
