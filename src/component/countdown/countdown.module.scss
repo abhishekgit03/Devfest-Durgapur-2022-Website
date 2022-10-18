@@ -20,3 +20,30 @@
         font-size:20vh;
     }
   }
+
+  @media only screen and (max-width: 800px) {
+
+
+    .App {
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        max-height: fit-content;
+         .title
+         {
+             margin-top: 10vh;;
+             text-align:center;
+             font-size: 5vh;
+             margin-bottom: 0;
+             color: lightgrey;
+         }
+         .timer
+         {
+             text-align: center;
+             font-size:5vh;
+         }
+       }
+     
+  }

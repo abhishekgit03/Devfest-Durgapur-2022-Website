@@ -16,7 +16,29 @@
 
   .sponsorRow {
     display: flex;
-    
     justify-content: space-around;
   }
+}
+
+@media only screen and (max-width: 800px) {
+  .background {
+    background-color: white;
+    height: fit-content;
+    margin-bottom: 15vh;
+  
+    .head {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 5vh;
+
+      .title {
+        font-weight: 700;
+        font-size: 45px;
+      }
+    }
+    .sponsorRow
+      {
+        flex-direction: column;
+      }
+}
 }
