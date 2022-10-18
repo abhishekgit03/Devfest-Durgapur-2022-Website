@@ -147,3 +147,32 @@
     display: none;
   }
 }
+
+@media only screen and (max-width: 800px) {
+
+  .background {
+    background-color: rgba(55, 0, 253, 0.041);
+    width: 100%;
+    height: fit-content;
+  
+    .title {
+      display: flex;
+      justify-content: center;
+      .bg {
+        margin-top: 5%;
+        font-weight: 900;
+        font-size: 6vh;
+        position: relative;
+        letter-spacing: 15px;
+        color: rgba(55, 0, 253, 0.068);
+      }
+      .fg {
+        letter-spacing: 20px;
+        position: absolute;
+        margin-top: 10%;
+        font-size: 2vh;
+      }
+    }
+  }  
+
+}

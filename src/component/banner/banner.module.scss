@@ -72,3 +72,57 @@
     }
   }
 }
+
+
+@media only screen and (max-width: 800px) {
+
+
+  .banner {
+  .rightSection {
+    
+      display:none;
+     
+  }
+    
+  .leftSection {
+  
+      display:flex;
+      flex-direction: column;
+  
+      align-items: center;
+      .logo {
+        width: 80%;
+      }
+       
+    
+      .title {
+        margin: 0;
+        font-weight: 500;
+      }
+  
+      .details {
+        font-weight: 500;
+        margin-top: 5vh;
+        margin-left: 5vh;
+      }
+  
+      .venue {
+      
+        margin-right: auto;
+        padding-left: 5vh;
+        .venueItem {
+          margin-bottom: 12px;
+          
+          display: flex;
+          gap: 5px;
+          align-items: center;
+  
+          h4 {
+            margin: 0;
+          }
+        }
+      } 
+    }
+   
+  }
+}

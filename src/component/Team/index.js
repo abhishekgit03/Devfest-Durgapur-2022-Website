@@ -132,18 +132,7 @@ const Team = () => {
         </div>
         
         
-        <div className={styles.box}>
-          <img
-            src="https://docs.google.com/drawings/d/e/2PACX-1vTLY6kROf6Rj9i3oVa-rBuQYrCCft1g0P3jzVRqhseogaTDz69WpAGKCMeplYrRuTDqbP1I7fv_Un-0/pub?w=440&amp;h=440"
-            className={styles.img}
-            alt=""
-          />
-          <h4 className={styles.name}>Aniket Shaw</h4>
-          <div className={styles.socials}>
-            <LinkedInIcon className={styles.icon} />
-           
-          </div>
-        </div>
+        
         <div className={styles.box}>
           <img
             src="https://docs.google.com/drawings/d/e/2PACX-1vQnCFq3VDOtCIM1co6qQmzkcv4Lk2A_yo7438NF5eE4csmrSIUnnic_E-WNbjhBuMMxaR40nHtoYz-J/pub?w=440&amp;h=440"
@@ -207,11 +196,35 @@ const Team = () => {
         </div>
         <div className={styles.box}>
           <img
+            src="https://docs.google.com/drawings/d/e/2PACX-1vTLY6kROf6Rj9i3oVa-rBuQYrCCft1g0P3jzVRqhseogaTDz69WpAGKCMeplYrRuTDqbP1I7fv_Un-0/pub?w=440&amp;h=440"
+            className={styles.img}
+            alt=""
+          />
+          <h4 className={styles.name}>Aniket Shaw</h4>
+          <div className={styles.socials}>
+            <LinkedInIcon className={styles.icon} />
+           
+          </div>
+        </div>
+        <div className={styles.box}>
+          <img
             src="https://docs.google.com/drawings/d/e/2PACX-1vTJOE80G8BxTQoiiS12PupCi7LmDB4szV611T5sdeQXWw1hGGnNwwa99I9sjQzCxvTKASSwK9Yt8qX9/pub?w=440&amp;h=440"
             className={styles.img}
             alt=""
           />
           <h4 className={styles.name}>Sunetra Roy</h4>
+          <div className={styles.socials}>
+            <LinkedInIcon className={styles.icon} />
+           
+          </div>
+        </div>
+        <div className={styles.box}>
+          <img
+            src="https://docs.google.com/drawings/d/e/2PACX-1vSYg5I5-ND8u2Atwquy-0NIgDyULx950WMbil6UtBKclwWEwz--17XFHHxks_rRMSYCXZ9drwkHTXBE/pub?w=440&amp;h=440"
+            className={styles.img}
+            alt=""
+          />
+          <h4 className={styles.name}>Arka Saha</h4>
           <div className={styles.socials}>
             <LinkedInIcon className={styles.icon} />
            
