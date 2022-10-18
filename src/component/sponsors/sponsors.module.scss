@@ -24,7 +24,7 @@
   .background {
     background-color: white;
     height: fit-content;
-    margin-bottom: 15vh;
+    margin-bottom: 2vh;
   
     .head {
       display: flex;
@@ -39,6 +39,7 @@
     .sponsorRow
       {
         flex-direction: column;
+        align-items: center;
       }
 }
 }
