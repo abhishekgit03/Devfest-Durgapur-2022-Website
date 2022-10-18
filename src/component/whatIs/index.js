@@ -13,14 +13,18 @@ const WhatIs = () => {
         />
         <div className={styles.right}>
           <h5 className={styles.details}>
-            DevFests are local tech conferences hosted by Google Developer
-            Groups (GDG) around the world. Each DevFest event is crafted by its
-            local organizers to fit the needs and interests of its local
-            developer community. Whether it be through hands-on learning
-            experiences, technical talks delivered in local languages by
-            experts, or by simply meeting fellow local developers, DevFest
-            attendees learn how to build together and innovate on Google's
-            developer tools.
+            DevFest is an annual decentralized tech conference hosted by the
+            Google Developer Groups (GDG) community. GDGs host these events
+            around the globe. DevFest 2022 marks the 11th year of DevFest and
+            represents the beginning of the second decade of the GDG community.
+            Through DevFest, you can continue to explore how Google's suite of
+            developer tools can expand the impact of local tech professionals
+            and developers like you around the world. Whether you're passionate
+            about finding new opportunities, elevating your knowledge on the
+            latest Google developer tools, or exploring how to use Google
+            technologies to generate social and economic impact, DevFest offers
+            an amazing platform for developers to connect locally, learn, and
+            build on Google's tools.
           </h5>
         </div>
       </div>

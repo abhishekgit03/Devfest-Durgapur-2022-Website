@@ -13,7 +13,7 @@ const Banner = () => {
           alt=""
           className={styles.logo}
         />
-
+        
         <h1 className={styles.title}>GDG Durgapur</h1>
         <h4 className={styles.details}>
           DevFests are community-led, developer events hosted by GDG

@@ -5,7 +5,8 @@
 
   .title {
     color: white;
-    padding: 45px;
+    margin-left: 5vh;
+    padding: 5vh 0 2vh  0;
     margin-top: 0;
     font-weight: 500;
   }
@@ -15,14 +16,18 @@
     align-items: center;
 
     .img {
-      margin-left: 70px;
+      margin-left: 5vh;
       width: 30%;
       padding: 0 50px 50px 0;
     }
 
     .right {
+       margin-right: 5vh;
+       align-items: center;
+       justify-content: center;
       .details {
-        padding: 0px 250px 0 0;
+      
+        text-align: left;
         line-height: 2;
         font-weight: 500;
         font-size: 18px;
