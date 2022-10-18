@@ -39,7 +39,7 @@
   }
   .container1 {
     display: flex;
-    gap: 10vh;
+    gap: 5vh;
     justify-content: center;
     max-width: 100%;
     width: 500%;
@@ -49,6 +49,7 @@
       display: flex;
       flex-direction: column;
       align-items: center;
+      
       .name {
         margin-top: 15px;
         margin-bottom: 0px;
