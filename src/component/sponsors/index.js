@@ -10,14 +10,17 @@ const Sponsors = () => {
       </div>
       <div className={styles.sponsorRow}>
         <SponsorCard
+         
           url="https://developers.google.com/site-assets/images/home/developers-social-media.png"
           sponsor="Title Sponsor"
         />
         <SponsorCard
+        
           url="https://i.ibb.co/WKjcHVd/left-image1.png"
           sponsor="Gold Sponsor"
         />
         <SponsorCard
+        
           url="https://developers.google.com/site-assets/images/home/developers-social-media.png"
           sponsor="Silver Sponsor"
         />
