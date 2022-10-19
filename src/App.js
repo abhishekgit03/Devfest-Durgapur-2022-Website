@@ -5,6 +5,7 @@ import Sponsors from "./component/sponsors";
 import Countdown from "./component/countdown";
 import Team from "./component/Team";
 import FAQ from "./component/FaqSection";
+import Footer from "./component/footer";
 import * as React from "react";
 import PropTypes from "prop-types";
 import AppBar from "@mui/material/AppBar";
@@ -19,9 +20,74 @@ import ListItemText from "@mui/material/ListItemText";
 import MenuIcon from "@mui/icons-material/Menu";
 import Toolbar from "@mui/material/Toolbar";
 import Button from "@mui/material/Button";
+import Scroll from "react-scroll"
 
 const drawerWidth = 240;
-const navItems = ["Home", "About", "Sponsors", "Speakers", "Team"];
+const navItems = ["Home", "About", "Sponsors", "Speakers", "Team","FAQ"];
+
+
+function scrolltobottom(){
+    var scroll=Scroll.animateScroll;
+    scroll.scrollToBottom();
+
+}
+
+function scrolltoTeam(){
+  var scroll=Scroll.animateScroll;
+  scroll.scrollTo(1800);
+
+}
+
+function scrolltoSponsor(){
+  var scroll=Scroll.animateScroll;
+  scroll.scrollTo(1000);
+
+}
+
+function scrolltoAbout(){
+  var scroll=Scroll.animateScroll;
+  scroll.scrollTo(500);
+
+}
+
+function scrolltobottomM(){
+  var scroll=Scroll.animateScroll;
+  scroll.scrollToBottom();
+
+}
+
+function scrolltoTeamM(){
+var scroll=Scroll.animateScroll;
+scroll.scrollTo(3000);
+
+}
+
+function scrolltoSponsorM(){
+var scroll=Scroll.animateScroll;
+scroll.scrollTo(1700);
+
+}
+
+function scrolltoAboutM(){
+var scroll=Scroll.animateScroll;
+scroll.scrollTo(600);
+
+}
+
+
+function scrolltoHome(){
+  var scroll=Scroll.animateScroll;
+  scroll.scrollTo(0);
+  
+  }
+
+
+
+
+
+
+
+
 
 function DrawerAppBar(props) {
   const { window } = props;
@@ -42,7 +108,31 @@ function DrawerAppBar(props) {
         {navItems.map((item) => (
           <ListItem key={item} disablePadding>
             <ListItemButton sx={{ textAlign: "center" }}>
-              <ListItemText primary={item} onClick={() => {}} />
+              <ListItemText primary={item} 
+               onClick={()=>{
+                if(item==="About")
+                {
+                   scrolltoAboutM()
+                }
+                else if(item==="Sponsors")
+                {
+                     scrolltoSponsorM()
+                }
+                else if(item==="Team")
+                {
+                   scrolltoTeamM()
+                }
+                else if(item==="FAQ")
+                {
+                     scrolltobottomM()
+                }
+                else if(item==="Home")
+                {
+                  scrolltoHome()
+                }
+
+
+               }}/>
             </ListItemButton>
           </ListItem>
         ))}
@@ -79,6 +169,31 @@ function DrawerAppBar(props) {
                   color: "#202124",
                   marginRight: "20px",
                 }}
+                onClick={()=>{
+                 if(item==="About")
+                 {
+                    scrolltoAbout()
+                 }
+                 else if(item==="Sponsors")
+                 {
+                      scrolltoSponsor()
+                 }
+                 else if(item==="Team")
+                 {
+                    scrolltoTeam()
+                 }
+                 else if(item==="FAQ")
+                 {
+                      scrolltobottom()
+                 }
+                 else if(item==="Home")
+                 {
+                   scrolltoHome()
+                 }
+ 
+
+
+                }}
               >
                 {item}
               </Button>
@@ -112,14 +227,17 @@ function DrawerAppBar(props) {
 
 function App() {
   return (
+    
     <div className={styles.body}>
       <DrawerAppBar />
       <Banner />
-      <Countdown />
+      {/* <Countdown /> */}
       <WhatIs className="whatIs" />
       <Sponsors />
       <Team />
       <FAQ />
+      <Footer/>
+     
     </div>
   );
 }

@@ -231,6 +231,18 @@ const Team = () => {
            
           </div>
         </div>
+        <div className={styles.box}>
+          <img
+            src="https://docs.google.com/drawings/d/e/2PACX-1vS8LvAIVxLgYSAa95OMtwXviZwL7gd5-2F25b8bDm2mFLAAqs8KxwYUNiENm_81dTh4z88B4CuhnAYU/pub?w=440&amp;h=440"
+            className={styles.img}
+            alt=""
+          />
+          <h4 className={styles.name}>Sujit Kumar Mahato</h4>
+          <div className={styles.socials}>
+          <a href="https://www.linkedin.com/in/sujitmahatoofficial/" target="_blank"><LinkedInIcon className={styles.icon} /></a>
+           
+          </div>
+        </div>
        
       </div>
       </div>

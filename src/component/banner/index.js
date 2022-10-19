@@ -35,7 +35,7 @@ const Banner = () => {
             <h4>TBD, Durgapur</h4>
           </div>
         </div>
-        <div className={styles.btn}>Register ASAP</div>
+        <div className={styles.btn}>Registrations will start on 1st November</div>
         <div className={styles.hashtag}>
           <h3 className={styles.hash}>#DevFestDurgapur</h3>
           <h3 className={styles.hash}>#GDGDurgapur</h3>
