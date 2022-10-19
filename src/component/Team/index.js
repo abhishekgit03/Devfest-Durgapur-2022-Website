@@ -2,7 +2,6 @@ import React from "react";
 import styles from "./Team.module.scss";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 
-
 const Team = () => {
   return (
     <div className={styles.background}>
@@ -11,6 +10,7 @@ const Team = () => {
         <h1 className={styles.fg}>OUR TEAM</h1>
       </div>
       <div className={styles.outercontainer}>
+
       <h1 className={styles.coreteam}>Core Team</h1>
       <div className={styles.container1}>
       <div className={styles.box1}>
@@ -232,11 +232,11 @@ const Team = () => {
           </div>
         </div>
        
-
-
       </div>
-    </div>
-    </div>
+      </div>
+      </div>
+
+          
   );
 };
 

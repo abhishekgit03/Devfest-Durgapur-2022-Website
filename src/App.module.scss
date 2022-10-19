@@ -1,4 +1,10 @@
 .body {
-  margin: 0;
-  width: 100%;
+  .appbar {
+    background-color: white;
+  }
+
+  .logo {
+    width: 120px;
+    margin-right: auto;
+  }
 }
