@@ -28,11 +28,11 @@ const Banner = () => {
           </div>
           <div className={styles.venueItem}>
             <AccessTimeIcon />
-            <h4>8:00 AM to 7:00 PM IST</h4>
+            <h4>9:00 AM to 5:00 PM IST</h4>
           </div>
           <div className={styles.venueItem}>
             <PlaceIcon />
-            <h4>Fortune Park, Durgapur</h4>
+            <h4>TBD, Durgapur</h4>
           </div>
         </div>
         <div className={styles.btn}>Register ASAP</div>
