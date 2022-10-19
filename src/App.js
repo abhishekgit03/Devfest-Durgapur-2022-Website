@@ -21,6 +21,8 @@ import MenuIcon from "@mui/icons-material/Menu";
 import Toolbar from "@mui/material/Toolbar";
 import Button from "@mui/material/Button";
 import Scroll from "react-scroll"
+import {Helmet} from "react-helmet"
+
 
 const drawerWidth = 240;
 const navItems = ["Home", "About", "Sponsors", "Speakers", "Team","FAQ"];
@@ -229,6 +231,9 @@ function App() {
   return (
     
     <div className={styles.body}>
+      <Helmet>
+        <title>Devfest Durgapur 2022</title>
+      </Helmet>
       <DrawerAppBar />
       <Banner />
       {/* <Countdown /> */}

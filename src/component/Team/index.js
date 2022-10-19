@@ -197,7 +197,7 @@ const Team = () => {
         </div>
         <div className={styles.box}>
           <img
-            src="https://docs.google.com/drawings/d/e/2PACX-1vS8LvAIVxLgYSAa95OMtwXviZwL7gd5-2F25b8bDm2mFLAAqs8KxwYUNiENm_81dTh4z88B4CuhnAYU/pub?w=440&amp;h=440"
+            src="https://docs.google.com/drawings/d/e/2PACX-1vQq4CSWSwrp8wyFwk0auCTBZnWnSpFi0LKQwvuncg5zFh6y_pQ_e1N5W_ggBbsSq8LWXLfvvEV6JSxy/pub?w=440&amp;h=440"
             className={styles.img}
             alt=""
           />
