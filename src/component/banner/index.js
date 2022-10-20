@@ -35,7 +35,7 @@ const Banner = () => {
             <h4>TBD, Durgapur</h4>
           </div>
         </div>
-        <div className={styles.btn}>Registrations will start on 1st November</div>
+        <a className={styles.btn} href="https://reg.gdgdurgapur.in/" target="_blank">Register Now</a>
         <div className={styles.hashtag}>
           <h3 className={styles.hash}>#DevFestDurgapur</h3>
           <h3 className={styles.hash}>#GDGDurgapur</h3>
