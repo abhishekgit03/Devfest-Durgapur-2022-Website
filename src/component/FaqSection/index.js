@@ -45,10 +45,10 @@ const FAQ = () => {
         <h3 className={styles.subtitle}>Find them here!</h3>
         <h3 className={styles.details}>
           For any queries related to sponsorship, please reach
-          <br /> out to us at <span>partners@gdgdurgapur.in</span> . Any
+          <br /> out to us at <span>support@gdgdurgapur.in</span> . Any
           question
           <br /> related to participation can be asked at <br />
-          <span>info@gdgdurgapur.in </span>.
+          <span>hello@gdgdurgapur.in</span>.
         </h3>
       </div>
       <div className={styles.faq}>

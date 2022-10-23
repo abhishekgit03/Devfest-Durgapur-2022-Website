@@ -1,0 +1,47 @@
+.maincontainer
+{
+    background-color: #202124;
+    width: 100%;
+    height: fit-content;
+    .container
+    {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding:10vh;
+    }
+
+}
+.maincontainer h1
+{
+        font-weight: 700;
+        color:white;
+        font-size: 45px;
+        padding-top: 15px;
+        text-align: center;
+        margin-left: auto;
+        margin-right:auto;
+}
+.maincontainer p
+{
+        color:rgb(202, 193, 193);
+        text-align: center;
+        margin-left: auto;
+        margin-right:auto;
+}
+@media only screen and (max-width: 800px) {
+
+.maincontainer
+{    
+.container
+{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    align-items: center;
+    justify-content: space-around;
+    padding:15vh;
+}
+
+}
+}
