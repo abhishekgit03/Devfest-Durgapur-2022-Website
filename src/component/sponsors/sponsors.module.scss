@@ -5,12 +5,21 @@
 
   .head {
     display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
     margin-bottom: 5vh;
     
     .title {
       font-weight: 700;
       font-size: 45px;
+    }
+    .subtitle
+    {
+      text-align: center;
+      margin-left: auto;
+      margin-right: auto;
+      color:grey;
     }
   }
 

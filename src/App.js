@@ -22,7 +22,7 @@ import Toolbar from "@mui/material/Toolbar";
 import Button from "@mui/material/Button";
 import Scroll from "react-scroll"
 import {Helmet} from "react-helmet"
-
+import  MediaCard from "./component/speakers"
 
 const drawerWidth = 240;
 const navItems = ["Home", "About", "Sponsors", "Speakers", "Team","FAQ"];
@@ -236,9 +236,10 @@ function App() {
       </Helmet>
       <DrawerAppBar />
       <Banner />
-      {/* <Countdown /> */}
+      <Countdown /> 
       <WhatIs className="whatIs" />
       <Sponsors />
+      <MediaCard/>
       <Team />
       <FAQ />
       <Footer/>
