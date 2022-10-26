@@ -36,11 +36,15 @@
     justify-content: center;
     
   }
+  .logos
+  {
+    display: flex;
+    gap:8vh;
+  }
   .otherSponsors
   {
     width:30vh;
-    height:30vh;
-
+    height:25vh;
   }
 }
 
@@ -61,12 +65,19 @@
       }
     }
     .sponsorRow
-      {
+    {
+      flex-direction: column;
+      align-items: center;
+    }
+    .logos
+    {
+      display: flex;
 
-        
-        
-        flex-direction: column;
-        align-items: center;
-      }
+    }
+    .otherSponsors
+    {
+      width:10vh;
+      height:15vh;
+    }
 }
 }

@@ -28,8 +28,11 @@ const Sponsors = () => {
       </div>
       <div className={styles.others}>
         <h1>Other Sponsors</h1>
+        <div className={styles.logos}>
           <img src="https://resources.jetbrains.com/storage/products/company/brand/logos/jb_beam.png" alt="JetBrains Logo (Main) logo." className={styles.otherSponsors}/>
-
+          <img src="https://i.ibb.co/4dMLXkH/GMC-Logo-S.png" alt="Give My Certificate" className={styles.otherSponsors}/>
+          <img src="https://i.ibb.co/kKkvJby/offsec-logo-large-black-white.jpg" alt="Offensive Security" className={styles.otherSponsors}/>
+          </div>
       </div>
     </div>
   );
