@@ -55,6 +55,13 @@
         margin-top: 15px;
         margin-bottom: 0px;
       }
+      .position
+      {
+        font-size: small;
+        color:grey;
+        margin-top: 0;
+        margin-bottom: 0;
+      }
 
       .img {
         width: 200px;
@@ -69,7 +76,6 @@
       }
 
       .socials {
-        margin-top: 15px;
         display: flex;
         gap: 30px;
         justify-content: center;
@@ -109,6 +115,13 @@
         margin-top: 15px;
         margin-bottom: 0px;
       }
+      .position
+      {
+        font-size: small;
+        color:grey;
+        margin-top: 0;
+        margin-bottom: 0;
+      }
 
       .img {
     
@@ -124,12 +137,13 @@
       }
 
       .socials {
-        margin-top: 15px;
+       
         display: flex;
         gap: 30px;
         justify-content: center;
 
         .icon {
+          
           font-size: 20px;
           cursor: pointer;
           &:hover {

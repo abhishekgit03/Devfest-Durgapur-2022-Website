@@ -20,6 +20,7 @@ const Team = () => {
             alt=""
           />
           <h4 className={styles.name}>Aninda Saha</h4>
+          <p className={styles.position}>GDG Organizer</p>
           <div className={styles.socials}>
           <a href="https://www.linkedin.com/in/aninda-saha-160230196/" target="_blank"><LinkedInIcon className={styles.icon} /></a>
            
@@ -32,6 +33,7 @@ const Team = () => {
             alt=""
           />
           <h4 className={styles.name}>Souvik Karmakar</h4>
+          <p className={styles.position}>GDG Organizer</p>
           <div className={styles.socials}>
           <a href="https://www.linkedin.com/in/souvik-karmakar-9727bb204/" target="_blank"><LinkedInIcon className={styles.icon} /></a>
            
@@ -44,6 +46,7 @@ const Team = () => {
             alt=""
           />
           <h4 className={styles.name}>Priyanka Singh</h4>
+          <p className={styles.position}>GDG Organizer</p>
           <div className={styles.socials}>
           <a href="https://www.linkedin.com/in/priyanka-singh-cse" target="_blank"><LinkedInIcon className={styles.icon} /></a>
            
@@ -56,6 +59,7 @@ const Team = () => {
             alt=""
           />
           <h4 className={styles.name}>Arka Saha</h4>
+          <p className={styles.position}>PR</p>
           <div className={styles.socials}>
           <a href="https://www.linkedin.com/in/arka-saha-589843204" target="_blank"><LinkedInIcon className={styles.icon} /></a>
           </div>
@@ -68,6 +72,7 @@ const Team = () => {
             alt=""
           />
           <h4 className={styles.name}>Tanushri Das</h4>
+          <p className={styles.position}>Content Creation</p>
           <div className={styles.socials}>
           <a href="https://www.linkedin.com/in/tanusri-das-82213321a" target="_blank"><LinkedInIcon className={styles.icon} /></a>
            
@@ -81,6 +86,8 @@ const Team = () => {
             alt=""
           />
           <h4 className={styles.name}>Debjyoti Mukherjee</h4>
+          <p className={styles.position}>Social Media</p>
+          
           <div className={styles.socials}>
           <a href="https://www.linkedin.com/in/mrdevmukherjee/" target="_blank"><LinkedInIcon className={styles.icon} /></a>
            
@@ -102,6 +109,7 @@ const Team = () => {
             alt=""
           />
           <h4 className={styles.name}>Subhajit Gorai</h4>
+          <p className={styles.position}>Website Team</p>
           <div className={styles.socials}>
           <a href="https://www.linkedin.com/in/subhajit-gorai/" target="_blank"><LinkedInIcon className={styles.icon} /></a>
            
@@ -114,8 +122,22 @@ const Team = () => {
             alt=""
           />
           <h4 className={styles.name}>Abhishek Dasgupta</h4>
+          <p className={styles.position}>Website Team</p>
           <div className={styles.socials}>
           <a href="https://www.linkedin.com/in/abhishek-dasgupta-819211147/" target="_blank"><LinkedInIcon className={styles.icon} /></a>
+           
+          </div>
+        </div>
+        <div className={styles.box}>
+          <img
+            src="https://docs.google.com/drawings/d/e/2PACX-1vQod9JkhJ7cjqOIeoVmTtiSqgUXtNSY6apfALq2bYieuUU96pXOouLETAdq3qyLDcDANrRQSdQ_Qbbh/pub?w=440&amp;h=440"
+            className={styles.img}
+            alt=""
+          />
+          <h4 className={styles.name}>Pritam Panda</h4>
+          <p className={styles.position}>Website Team</p>
+          <div className={styles.socials}>
+          <a href="https://linkedin.com/in/pritam-panda-3553961bb" target="_blank"><LinkedInIcon className={styles.icon} /></a>
            
           </div>
         </div>
@@ -126,6 +148,7 @@ const Team = () => {
             alt=""
           />
           <h4 className={styles.name}>Oishi Sen</h4>
+          <p className={styles.position}>Graphics Team</p>
           <div className={styles.socials}>
           <a href="https://www.linkedin.com/in/oishi-sen-29538222a/" target="_blank"><LinkedInIcon className={styles.icon} /></a>
            
@@ -138,6 +161,7 @@ const Team = () => {
             alt=""
           />
           <h4 className={styles.name}>Subhasree Maji</h4>
+          <p className={styles.position}>Outreach</p>
           <div className={styles.socials}>
           <a href="https://www.linkedin.com/in/subhasree-maji-1a084123a/" target="_blank"><LinkedInIcon className={styles.icon} /></a>
            
@@ -153,6 +177,7 @@ const Team = () => {
             alt=""
           />
           <h4 className={styles.name}>Soaham Guha</h4>
+          <p className={styles.position}>Outreach</p>
           <div className={styles.socials}>
           <a href="https://www.linkedin.com/in/soaham-guha-11b830225" target="_blank"><LinkedInIcon className={styles.icon} /></a>
            
@@ -166,6 +191,7 @@ const Team = () => {
             alt=""
           />
           <h4 className={styles.name}>Ankita Bandyopadhyay</h4>
+          <p className={styles.position}>Outreach</p>
           <div className={styles.socials}>
             <a href="https://www.linkedin.com/in/ankita-bandyopadhyay-1a72b922a"><LinkedInIcon className={styles.icon} /></a>
            
@@ -178,6 +204,7 @@ const Team = () => {
             alt=""
           />
           <h4 className={styles.name}>Arpanendu Khag</h4>
+          <p className={styles.position}>Graphics Team</p>
           <div className={styles.socials}>
           <a href="https://www.linkedin.com/in/arpanendu-khag-a64408203" target="_blank"><LinkedInIcon className={styles.icon} /></a>
            
@@ -190,6 +217,7 @@ const Team = () => {
             alt=""
           />
           <h4 className={styles.name}>Soumojyoti Konar</h4>
+          <p className={styles.position}>Outreach</p>
           <div className={styles.socials}>
           <a href="https://www.linkedin.com/in/soumojyoti-konar-49b170191" target="_blank"><LinkedInIcon className={styles.icon} /></a>
            
@@ -202,6 +230,7 @@ const Team = () => {
             alt=""
           />
           <h4 className={styles.name}>Soumyajit Ghosh</h4>
+          <p className={styles.position}>Outreach</p>
           <div className={styles.socials}>
           <a href="https://www.linkedin.com/in/iamsoumyajit27" target="_blank"><LinkedInIcon className={styles.icon} /></a>
            
@@ -214,6 +243,7 @@ const Team = () => {
             alt=""
           />
           <h4 className={styles.name}>Aniket Shaw</h4>
+          <p className={styles.position}>Outreach</p>
           <div className={styles.socials}>
           <a href="https://www.linkedin.com/in/aniket-shaw-6b4240247" target="_blank"><LinkedInIcon className={styles.icon} /></a>
            
@@ -226,6 +256,7 @@ const Team = () => {
             alt=""
           />
           <h4 className={styles.name}>Sunetra Roy</h4>
+          <p className={styles.position}>Outreach</p>
           <div className={styles.socials}>
           <a href="https://www.linkedin.com/in/sunetra-roy-179788251" target="_blank"><LinkedInIcon className={styles.icon} /></a>
            
@@ -238,23 +269,13 @@ const Team = () => {
             alt=""
           />
           <h4 className={styles.name}>Sujit Kumar Mahato</h4>
+          <p className={styles.position}>Outreach</p>
           <div className={styles.socials}>
           <a href="https://www.linkedin.com/in/sujitmahatoofficial/" target="_blank"><LinkedInIcon className={styles.icon} /></a>
            
           </div>
         </div>
-        <div className={styles.box}>
-          <img
-            src="https://docs.google.com/drawings/d/e/2PACX-1vQod9JkhJ7cjqOIeoVmTtiSqgUXtNSY6apfALq2bYieuUU96pXOouLETAdq3qyLDcDANrRQSdQ_Qbbh/pub?w=440&amp;h=440"
-            className={styles.img}
-            alt=""
-          />
-          <h4 className={styles.name}>Pritam Panda</h4>
-          <div className={styles.socials}>
-          <a href="https://linkedin.com/in/pritam-panda-3553961bb" target="_blank"><LinkedInIcon className={styles.icon} /></a>
-           
-          </div>
-        </div>
+        
        
       </div>
       </div>
