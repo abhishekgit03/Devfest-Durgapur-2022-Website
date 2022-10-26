@@ -26,6 +26,11 @@ const Sponsors = () => {
           sponsor="Silver Sponsor"
         />
       </div>
+      <div className={styles.others}>
+        <h1>Other Sponsors</h1>
+          <img src="https://resources.jetbrains.com/storage/products/company/brand/logos/jb_beam.png" alt="JetBrains Logo (Main) logo." className={styles.otherSponsors}/>
+
+      </div>
     </div>
   );
 };

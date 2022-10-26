@@ -243,6 +243,18 @@ const Team = () => {
            
           </div>
         </div>
+        <div className={styles.box}>
+          <img
+            src="https://docs.google.com/drawings/d/e/2PACX-1vQod9JkhJ7cjqOIeoVmTtiSqgUXtNSY6apfALq2bYieuUU96pXOouLETAdq3qyLDcDANrRQSdQ_Qbbh/pub?w=440&amp;h=440"
+            className={styles.img}
+            alt=""
+          />
+          <h4 className={styles.name}>Pritam Panda</h4>
+          <div className={styles.socials}>
+          <a href="https://linkedin.com/in/pritam-panda-3553961bb" target="_blank"><LinkedInIcon className={styles.icon} /></a>
+           
+          </div>
+        </div>
        
       </div>
       </div>
