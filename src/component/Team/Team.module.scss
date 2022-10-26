@@ -111,12 +111,13 @@
       }
 
       .img {
-        width: 200px;
+    
         transition: width 0.2s ease-out;
         object-fit: cover;
         border-radius: 50%;
+        width: 20vh;
         &:hover {
-          width: 210px;
+          width: 21vh;
           box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2),
             0 8px 20px 0 rgba(0, 0, 0, 0.19);
         }
