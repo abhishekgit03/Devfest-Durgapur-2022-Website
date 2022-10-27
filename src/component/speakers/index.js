@@ -28,7 +28,7 @@ export default function MediaCard() {
          
         </Typography>
         <Typography variant="body2" color="text.secondary">
-            Coming Soon
+        <img src="https://mir-s3-cdn-cf.behance.net/project_modules/disp/35771931234507.564a1d2403b3a.gif" width="40vh"/>
         </Typography>
       </CardContent>
       <CardActions>
@@ -50,7 +50,7 @@ export default function MediaCard() {
           
         </Typography>
         <Typography variant="body2" color="text.secondary">
-            Coming Soon
+        <img src="https://mir-s3-cdn-cf.behance.net/project_modules/disp/35771931234507.564a1d2403b3a.gif" width="40vh"/>
         </Typography>
       </CardContent>
       <CardActions>
@@ -60,7 +60,7 @@ export default function MediaCard() {
       </CardActions>
     </Card>
 
-    <Card sx={{width:"40vh"  }}>
+    <Card sx={{width:"40vh"}}>
       <CardMedia
         component="img"
         height="250"
@@ -72,7 +72,8 @@ export default function MediaCard() {
        
         </Typography>
         <Typography variant="body2" color="text.secondary">
-            Coming Soon
+          <img src="https://mir-s3-cdn-cf.behance.net/project_modules/disp/35771931234507.564a1d2403b3a.gif" width="40vh"/>
+          
         </Typography>
       </CardContent>
       <CardActions>
