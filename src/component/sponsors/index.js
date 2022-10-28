@@ -1,7 +1,8 @@
 import React from "react";
 import SponsorCard from "../../micro-component/SponsorCard/SponsorCard";
 import styles from "./sponsors.module.scss";
-
+import GMClogo from "../../assets/GMCLogo.png"
+import offseclogo from "../../assets/offsecLogo.jpg"
 const Sponsors = () => {
   return (
     <div className={styles.background}>
@@ -30,8 +31,8 @@ const Sponsors = () => {
         <h1>Other Sponsors</h1>
         <div className={styles.logos}>
           <img src="https://resources.jetbrains.com/storage/products/company/brand/logos/jb_beam.png" alt="JetBrains Logo (Main) logo." className={styles.otherSponsors}/>
-          <img src="https://i.ibb.co/4dMLXkH/GMC-Logo-S.png" alt="Give My Certificate" className={styles.otherSponsors}/>
-          <img src="https://i.ibb.co/kKkvJby/offsec-logo-large-black-white.jpg" alt="Offensive Security" className={styles.otherSponsors}/>
+          <img src={GMClogo} alt="Offensive Security" className={styles.otherSponsors}/>
+          <img src={offseclogo} alt="Offensive Security" className={styles.otherSponsors}/>
           </div>
       </div>
     </div>
