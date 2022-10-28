@@ -43,8 +43,8 @@
   }
   .otherSponsors
   {
-    width:30vh;
-    height:25vh;
+    width:20vh;
+    height:20vh;
   }
 }
 
@@ -71,12 +71,14 @@
     }
     .logos
     {
+
       display: flex;
+      flex-direction: column;
 
     }
     .otherSponsors
     {
-      width:10vh;
+      width:20vh;
       height:15vh;
     }
 }
