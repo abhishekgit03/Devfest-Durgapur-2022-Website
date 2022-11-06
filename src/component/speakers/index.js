@@ -9,6 +9,14 @@ import styles from "./speakers.module.scss";
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import InstagramIcon from '@mui/icons-material/Instagram';
+import Anubhav from  "../../assets/Anubhav.jpg"
+import Manish from  "../../assets/Manish.jpg"
+import Sourav from  "../../assets/Sourav.jpg"
+import Jyoti from  "../../assets/Jyoti.png"
+import Rishiraj from  "../../assets/Rishiraj.JPG"
+
+
+
 
 export default function MediaCard() {
   return (
@@ -20,15 +28,15 @@ export default function MediaCard() {
       <CardMedia 
         component="img"
         height="250"
-        image="https://img.freepik.com/premium-vector/conference-icon-with-speaker-stage-vector_116137-3108.jpg?w=2000"
+        image={Anubhav}
         alt="green iguana"
       />
       <CardContent >
-        <Typography gutterBottom variant="h5" component="div">
-         
+        <Typography gutterBottom variant="h5" component="div" >
+         Anubhav Singh
         </Typography>
         <Typography variant="body2" color="text.secondary">
-        <img src="https://mir-s3-cdn-cf.behance.net/project_modules/disp/35771931234507.564a1d2403b3a.gif" width="40vh"/>
+        CTO & Co-founder,Dynopii Inc.
         </Typography>
       </CardContent>
       <CardActions>
@@ -42,15 +50,15 @@ export default function MediaCard() {
       <CardMedia
         component="img"
         height="250"
-        image="https://static.vecteezy.com/system/resources/previews/002/040/867/original/conference-icon-with-speaker-on-stage-eps-vector.jpg"
+        image={Manish}
         alt="green iguana"
       />
       <CardContent>
         <Typography gutterBottom variant="h5" component="div">
-          
+        Manish Kumar Barnwal
         </Typography>
         <Typography variant="body2" color="text.secondary">
-        <img src="https://mir-s3-cdn-cf.behance.net/project_modules/disp/35771931234507.564a1d2403b3a.gif" width="40vh"/>
+        Co-founder,Builders of Web3 
         </Typography>
       </CardContent>
       <CardActions>
@@ -64,15 +72,37 @@ export default function MediaCard() {
       <CardMedia
         component="img"
         height="250"
-        image="https://img.freepik.com/premium-vector/conference-icon-with-speaker-stage-vector_116137-3108.jpg?w=2000"
+        image={Sourav}
         alt="green iguana"
       />
       <CardContent>
         <Typography gutterBottom variant="h5" component="div">
-       
+        Sourav Tiwari
         </Typography>
         <Typography variant="body2" color="text.secondary">
-          <img src="https://mir-s3-cdn-cf.behance.net/project_modules/disp/35771931234507.564a1d2403b3a.gif" width="40vh"/>
+        Senior Associate @PWC, Lead Organizer - Flutter Kolkata
+          
+        </Typography>
+      </CardContent>
+      <CardActions>
+        <Button size="small"><LinkedInIcon/></Button>
+        <Button size="small"><TwitterIcon/></Button>
+        <Button size="small"><InstagramIcon/></Button>
+      </CardActions>
+    </Card>
+
+    <Card sx={{width:"40vh"}}>
+      <CardMedia
+        component="img"
+        height="250"
+        image={Jyoti}
+      />
+      <CardContent>
+        <Typography gutterBottom variant="h5" component="div">
+        Jyoti Mishra
+        </Typography>
+        <Typography variant="body2" color="text.secondary">
+          SDE,Evertz Microsystems
           
         </Typography>
       </CardContent>
@@ -84,8 +114,28 @@ export default function MediaCard() {
     </Card>
 
 
-    
-
+    <Card sx={{width:"40vh"}}>
+      <CardMedia
+        component="img"
+        height="250"
+        image={Rishiraj}
+        alt="green iguana"
+      />
+      <CardContent>
+        <Typography gutterBottom variant="h5" component="div">
+        Rishiraj Acharya
+        </Typography>
+        <Typography variant="body2" color="text.secondary">
+        Machine Learning Engineer,Dynopii Inc.
+          
+        </Typography>
+      </CardContent>
+      <CardActions>
+        <Button size="small"><LinkedInIcon/></Button>
+        <Button size="small"><TwitterIcon/></Button>
+        <Button size="small"><InstagramIcon/></Button>
+      </CardActions>
+    </Card>
    
     </div>
     </div>
