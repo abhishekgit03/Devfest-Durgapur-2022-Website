@@ -3,7 +3,7 @@ import styles from "./countdown.module.scss";
 
 function Countdown() {
 
-  let dest = new Date("Nov 23, 2022 10:00:00").getTime();
+  let dest = new Date("Nov 27, 2022 10:00:00").getTime();
 
   let now = new Date().getTime();
   let diff = dest - now;
