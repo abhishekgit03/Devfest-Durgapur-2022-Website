@@ -7,6 +7,7 @@ import girlscriptlogo from "../../assets/girlscript.jpeg"
 import hack4bengal from "../../assets/hack4bengal.png"
 import ocd from  "../../assets/ocd.png"
 import devworld from  "../../assets/devworld.png"
+import devs from  "../../assets/Devs.png"
 const Sponsors = () => {
   return (
     <div className={styles.background}>
@@ -47,6 +48,8 @@ const Sponsors = () => {
           <img src={hack4bengal} alt="hack4bengal" className={styles.otherSponsors}/>
           <img src={ocd} alt="ocd" className={styles.otherSponsors}/>
           <img src={devworld} alt="devworld" className={styles.otherSponsors}/>
+          <img src={devs} alt="DevsDungeons" className={styles.otherSponsors}/>
+          
           </div>
       </div>
     </div>

@@ -35,7 +35,7 @@ export default function MediaCard() {
         <Typography gutterBottom variant="h5" component="div" >
          Anubhav Singh
         </Typography>
-        <Typography variant="body2" color="text.secondary">
+        <Typography variant="h7" color="text.secondary">
         CTO & Co-founder,Dynopii Inc.
         </Typography>
       </CardContent>
@@ -57,8 +57,8 @@ export default function MediaCard() {
         <Typography gutterBottom variant="h5" component="div">
         Manish Kumar Barnwal
         </Typography>
-        <Typography variant="body2" color="text.secondary">
-        Co-founder,Builders of Web3 
+        <Typography variant="h7" color="text.secondary">
+        Co-founder, GemsDAO & Building, Insure 
         </Typography>
       </CardContent>
       <CardActions>
@@ -79,7 +79,7 @@ export default function MediaCard() {
         <Typography gutterBottom variant="h5" component="div">
         Sourav Tiwari
         </Typography>
-        <Typography variant="body2" color="text.secondary">
+        <Typography variant="h7" color="text.secondary">
         Senior Associate @PWC, Lead Organizer - Flutter Kolkata
           
         </Typography>
@@ -101,7 +101,7 @@ export default function MediaCard() {
         <Typography gutterBottom variant="h5" component="div">
         Jyoti Mishra
         </Typography>
-        <Typography variant="body2" color="text.secondary">
+        <Typography variant="h7" color="text.secondary">
           SDE,Evertz Microsystems
           
         </Typography>
@@ -125,7 +125,7 @@ export default function MediaCard() {
         <Typography gutterBottom variant="h5" component="div">
         Rishiraj Acharya
         </Typography>
-        <Typography variant="body2" color="text.secondary">
+        <Typography variant="h7" color="text.secondary">
         Machine Learning Engineer,Dynopii Inc.
           
         </Typography>
