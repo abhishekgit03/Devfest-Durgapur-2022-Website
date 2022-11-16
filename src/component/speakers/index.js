@@ -18,6 +18,7 @@ import Rishiraj from  "../../assets/Rishiraj.JPG"
 
 
 
+
 export default function MediaCard() {
   return (
     <div className={styles.maincontainer}>
