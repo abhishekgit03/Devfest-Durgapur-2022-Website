@@ -8,6 +8,15 @@ import hack4bengal from "../../assets/hack4bengal.png"
 import ocd from  "../../assets/ocd.png"
 import devworld from  "../../assets/devworld.png"
 import devs from  "../../assets/Devs.png"
+import GDSCbcrec from  "../../assets/GDSCbcrec.png"
+import GDSCnit from  "../../assets/GDSCnit.png"
+import codecu from  "../../assets/codecu.jfif"
+import gemsDAO from  "../../assets/gemsDAO.png"
+import HackForCode from  "../../assets/HackForCode.jpg"
+import algo from  "../../assets/algo.jfif"
+
+
+
 const Sponsors = () => {
   return (
     <div className={styles.background}>
@@ -49,7 +58,13 @@ const Sponsors = () => {
           <img src={ocd} alt="ocd" className={styles.otherSponsors}/>
           <img src={devworld} alt="devworld" className={styles.otherSponsors}/>
           <img src={devs} alt="DevsDungeons" className={styles.otherSponsors}/>
-          
+          <img src={GDSCbcrec} alt="GDSCbcrec" className={styles.otherSponsors}/>
+          <img src={GDSCnit} alt="GDSCnit" className={styles.otherSponsors}/>
+          <img src={codecu} alt=" codecu" className={styles.otherSponsors}/>
+          <img src={gemsDAO} alt=" gemsDAO" className={styles.otherSponsors}/>
+          <img src={HackForCode} alt="HackForCode" className={styles.otherSponsors}/>
+          <img src={algo} alt="algo" className={styles.otherSponsors}/>
+         
           </div>
       </div>
     </div>
