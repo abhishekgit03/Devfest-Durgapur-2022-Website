@@ -14,7 +14,9 @@ import Manish from  "../../assets/Manish.jpg"
 import Sourav from  "../../assets/Sourav.jpg"
 import Jyoti from  "../../assets/Jyoti.png"
 import Rishiraj from  "../../assets/Rishiraj.JPG"
-
+import Eshaan from  "../../assets/eshaan.jfif"
+import Adit from  "../../assets/adit.jpeg"
+import Ayush from  "../../assets/ayush.png"
 
 
 
@@ -25,6 +27,47 @@ export default function MediaCard() {
         <h1>Speakers</h1>
         <p>For applying as a speaker drop your proposal at hello@gdgdurgapur.in</p>
     <div className={styles.container}>
+    
+    
+    <Card sx={{width:"40vh"}}>
+      <CardMedia
+        component="img"
+        height="250"
+        image={Ayush}
+        alt="Ayush Sekhar"
+      />
+      <CardContent>
+        <Typography gutterBottom variant="h5" component="div">
+        Ayush Shekhar
+        </Typography>
+        <Typography variant="h7" color="text.secondary">
+        GDE-Flutter and Dart,Engineer-FrontRow
+          
+        </Typography>
+      </CardContent>
+    </Card>
+
+    <Card sx={{width:"40vh"}}>
+      <CardMedia
+        component="img"
+        height="250"
+        image={Adit}
+        alt="Adit Lal"
+      />
+      <CardContent>
+        <Typography gutterBottom variant="h5" component="div">
+        Adit Lal
+        </Typography>
+        <Typography variant="h7" color="text.secondary">
+        Google Developer Expert,Android    
+        </Typography>
+      </CardContent>
+      {/* <CardActions>
+        <Button size="small" href="https://LinkedIn.com/in/aditlal"><LinkedInIcon/></Button>
+       
+      </CardActions> */}
+    </Card>
+  
     <Card sx={{ width:"40vh"}}>
       <CardMedia 
         component="img"
@@ -40,11 +83,6 @@ export default function MediaCard() {
         CTO & Co-founder,Dynopii Inc.
         </Typography>
       </CardContent>
-      <CardActions>
-        <Button size="small"><LinkedInIcon/></Button>
-        <Button size="small"><TwitterIcon/></Button>
-        <Button size="small"><InstagramIcon/></Button>
-      </CardActions>
     </Card>
 
     <Card sx={{ width:"40vh"  }}>
@@ -62,11 +100,6 @@ export default function MediaCard() {
         Co-founder, GemsDAO & Building, Insure 
         </Typography>
       </CardContent>
-      <CardActions>
-      <Button size="small"><LinkedInIcon/></Button>
-      <Button size="small"><TwitterIcon/></Button>
-      <Button size="small"><InstagramIcon/></Button>
-      </CardActions>
     </Card>
 
     <Card sx={{width:"40vh"}}>
@@ -85,11 +118,6 @@ export default function MediaCard() {
           
         </Typography>
       </CardContent>
-      <CardActions>
-        <Button size="small"><LinkedInIcon/></Button>
-        <Button size="small"><TwitterIcon/></Button>
-        <Button size="small"><InstagramIcon/></Button>
-      </CardActions>
     </Card>
 
     <Card sx={{width:"40vh"}}>
@@ -107,13 +135,25 @@ export default function MediaCard() {
           
         </Typography>
       </CardContent>
-      <CardActions>
-        <Button size="small"><LinkedInIcon/></Button>
-        <Button size="small"><TwitterIcon/></Button>
-        <Button size="small"><InstagramIcon/></Button>
-      </CardActions>
     </Card>
 
+    <Card sx={{width:"40vh"}}>
+      <CardMedia
+        component="img"
+        height="250"
+        image={Eshaan}
+        alt="Eshaan"
+      />
+      <CardContent>
+        <Typography gutterBottom variant="h5" component="div">
+        Eshan Chattaraj
+        </Typography>
+        <Typography variant="h7" color="text.secondary">
+        Principal Software Engineer,Google India
+          
+        </Typography>
+      </CardContent>
+    </Card>
 
     <Card sx={{width:"40vh"}}>
       <CardMedia
@@ -131,12 +171,10 @@ export default function MediaCard() {
           
         </Typography>
       </CardContent>
-      <CardActions>
-        <Button size="small"><LinkedInIcon/></Button>
-        <Button size="small"><TwitterIcon/></Button>
-        <Button size="small"><InstagramIcon/></Button>
-      </CardActions>
+   
     </Card>
+
+
    
     </div>
     </div>
