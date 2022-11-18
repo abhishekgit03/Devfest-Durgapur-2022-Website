@@ -211,19 +211,7 @@ const Team = () => {
           </div>
         </div>
         
-        <div className={styles.box}>
-          <img
-            src="https://docs.google.com/drawings/d/e/2PACX-1vQq4CSWSwrp8wyFwk0auCTBZnWnSpFi0LKQwvuncg5zFh6y_pQ_e1N5W_ggBbsSq8LWXLfvvEV6JSxy/pub?w=440&amp;h=440"
-            className={styles.img}
-            alt=""
-          />
-          <h4 className={styles.name}>Soumyajit Ghosh</h4>
-          <p className={styles.position}>Outreach</p>
-          <div className={styles.socials}>
-          <a href="https://www.linkedin.com/in/iamsoumyajit27" target="_blank"><LinkedInIcon className={styles.icon} /></a>
-           
-          </div>
-        </div>
+        
         <div className={styles.box}>
           <img
             src="https://docs.google.com/drawings/d/e/2PACX-1vTLY6kROf6Rj9i3oVa-rBuQYrCCft1g0P3jzVRqhseogaTDz69WpAGKCMeplYrRuTDqbP1I7fv_Un-0/pub?w=440&amp;h=440"
@@ -260,6 +248,20 @@ const Team = () => {
           <p className={styles.position}>Outreach</p>
           <div className={styles.socials}>
           <a href="https://www.linkedin.com/in/sujitmahatoofficial/" target="_blank"><LinkedInIcon className={styles.icon} /></a>
+           
+          </div>
+        </div>
+
+        <div className={styles.box}>
+          <img
+            src="https://docs.google.com/drawings/d/e/2PACX-1vQx6rrmWDCn1q5SpS4WqK5fSdyqOgpelelLEfKrXmc0_cq84HeqUQ80QyWJpKOSeto4SsrEu9B2Et7l/pub?w=440&amp;h=440"
+            className={styles.img}
+            alt=""
+          />
+          <h4 className={styles.name}>Soumojyoti Konar</h4>
+          <p className={styles.position}>Outreach</p>
+          <div className={styles.socials}>
+          <a href="https://www.linkedin.com/in/" target="_blank"><LinkedInIcon className={styles.icon} /></a>
            
           </div>
         </div>
