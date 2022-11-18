@@ -32,7 +32,7 @@ const Banner = () => {
           </div>
           <div className={styles.venueItem}>
             <PlaceIcon />
-            <h4>TBD, Durgapur</h4>
+            <h4>Srijani Auditorium, Durgapur</h4>
           </div>
         </div>
         <a className={styles.btn} href="https://reg.gdgdurgapur.in/" target="_blank">Register Now</a>
