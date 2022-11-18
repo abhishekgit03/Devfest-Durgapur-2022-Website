@@ -46,27 +46,6 @@ export default function MediaCard() {
         </Typography>
       </CardContent>
     </Card>
-
-    <Card sx={{width:"40vh"}}>
-      <CardMedia
-        component="img"
-        height="250"
-        image={Adit}
-        alt="Adit Lal"
-      />
-      <CardContent>
-        <Typography gutterBottom variant="h5" component="div">
-        Adit Lal
-        </Typography>
-        <Typography variant="h7" color="text.secondary">
-        Google Developer Expert,Android    
-        </Typography>
-      </CardContent>
-      {/* <CardActions>
-        <Button size="small" href="https://LinkedIn.com/in/aditlal"><LinkedInIcon/></Button>
-       
-      </CardActions> */}
-    </Card>
   
     <Card sx={{ width:"40vh"}}>
       <CardMedia 
@@ -114,7 +93,7 @@ export default function MediaCard() {
         Sourav Tiwari
         </Typography>
         <Typography variant="h7" color="text.secondary">
-        Senior Associate @PWC, Lead Organizer - Flutter Kolkata
+        Senior Associate @PwC, Lead Organizer - Flutter Kolkata
           
         </Typography>
       </CardContent>
