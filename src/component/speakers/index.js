@@ -163,7 +163,7 @@ export default function MediaCard() {
         Usha Rengaraju
         </Typography>
         <Typography variant="h7" color="text.secondary">
-        Head of Data Science Research,
+        Head of Data Science Research,Exa Protocol
           
         </Typography>
       </CardContent>
