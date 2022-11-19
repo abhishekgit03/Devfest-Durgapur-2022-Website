@@ -15,10 +15,8 @@ import Sourav from  "../../assets/Sourav.jpg"
 import Jyoti from  "../../assets/Jyoti.png"
 import Rishiraj from  "../../assets/Rishiraj.JPG"
 import Eshaan from  "../../assets/eshaan.jfif"
-import Adit from  "../../assets/adit.jpeg"
 import Ayush from  "../../assets/ayush.png"
-
-
+import Usha from  "../../assets/usha.jpeg"
 
 
 export default function MediaCard() {
@@ -147,6 +145,25 @@ export default function MediaCard() {
         </Typography>
         <Typography variant="h7" color="text.secondary">
         Machine Learning Engineer,Dynopii Inc.
+          
+        </Typography>
+      </CardContent>
+   
+    </Card>
+
+    <Card sx={{width:"40vh"}}>
+      <CardMedia
+        component="img"
+        height="250"
+        image={Usha}
+        alt="Usha Rengaraju"
+      />
+      <CardContent>
+        <Typography gutterBottom variant="h5" component="div">
+        Usha Rengaraju
+        </Typography>
+        <Typography variant="h7" color="text.secondary">
+        Head of Data Science Research,
           
         </Typography>
       </CardContent>

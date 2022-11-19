@@ -14,6 +14,10 @@ import codecu from  "../../assets/codecu.jfif"
 import gemsDAO from  "../../assets/gemsDAO.png"
 import HackForCode from  "../../assets/HackForCode.jpg"
 import algo from  "../../assets/algo.jfif"
+import nscc from  "../../assets/nscc.jpeg"
+import showcase from  "../../assets/showcase.jpeg"
+import algohit from  "../../assets/algohit.png"
+import irlamigo from  "../../assets/irlamigo.jpeg"
 
 
 
@@ -64,6 +68,10 @@ const Sponsors = () => {
           <img src={gemsDAO} alt=" gemsDAO" className={styles.otherSponsors}/>
           <img src={HackForCode} alt="HackForCode" className={styles.otherSponsors}/>
           <img src={algo} alt="algo" className={styles.otherSponsors}/>
+          <img src={nscc} alt="algo" className={styles.otherSponsors}/>
+          <img src={showcase} alt="algo" className={styles.otherSponsors}/>
+          <img src={algohit} alt="algo" className={styles.otherSponsors}/>
+          <img src={irlamigo} alt="algo" className={styles.otherSponsors}/>
          
           </div>
       </div>
