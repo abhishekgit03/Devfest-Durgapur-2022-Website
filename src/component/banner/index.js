@@ -28,7 +28,7 @@ const Banner = () => {
           </div>
           <div className={styles.venueItem}>
             <AccessTimeIcon />
-            <h4>9:00 AM to 5:00 PM IST</h4>
+            <h4>8:30AM to 7:00 PM IST</h4>
           </div>
           <div className={styles.venueItem}>
             <PlaceIcon />
