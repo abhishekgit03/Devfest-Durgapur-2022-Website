@@ -114,23 +114,7 @@ export default function MediaCard() {
       </CardContent>
     </Card>
 
-    <Card sx={{width:"40vh"}}>
-      <CardMedia
-        component="img"
-        height="250"
-        image={Eshaan}
-        alt="Eshaan"
-      />
-      <CardContent>
-        <Typography gutterBottom variant="h5" component="div">
-        Eshan Chattaraj
-        </Typography>
-        <Typography variant="h7" color="text.secondary">
-        Principal Software Engineer,Google India
-          
-        </Typography>
-      </CardContent>
-    </Card>
+    
 
     <Card sx={{width:"40vh"}}>
       <CardMedia
