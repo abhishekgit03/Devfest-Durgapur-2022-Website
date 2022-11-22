@@ -35,7 +35,7 @@ const Banner = () => {
             <h4>Srijani Auditorium, Durgapur</h4>
           </div>
         </div>
-        <a className={styles.btn} href="https://reg.gdgdurgapur.in/" target="_blank">Register Now</a>
+        <a className={styles.btn} href="" target="_blank">Closed</a>
         <div className={styles.hashtag}>
           <h3 className={styles.hash}>#DevFestDurgapur</h3>
           <h3 className={styles.hash}>#GDGDurgapur</h3>
