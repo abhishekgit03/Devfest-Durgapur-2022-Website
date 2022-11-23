@@ -28,14 +28,14 @@ const Banner = () => {
           </div>
           <div className={styles.venueItem}>
             <AccessTimeIcon />
-            <h4>9:00 AM to 5:00 PM IST</h4>
+            <h4>8:30AM to 7:00 PM IST</h4>
           </div>
           <div className={styles.venueItem}>
             <PlaceIcon />
             <h4>Srijani Auditorium, Durgapur</h4>
           </div>
         </div>
-        <a className={styles.btn} href="https://reg.gdgdurgapur.in/" target="_blank">Register Now</a>
+        <a className={styles.btn} href="" target="_blank">Closed</a>
         <div className={styles.hashtag}>
           <h3 className={styles.hash}>#DevFestDurgapur</h3>
           <h3 className={styles.hash}>#GDGDurgapur</h3>
