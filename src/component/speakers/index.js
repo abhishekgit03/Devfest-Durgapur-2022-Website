@@ -114,7 +114,7 @@ export default function MediaCard() {
       </CardContent>
     </Card>
 
-    
+
 
     <Card sx={{width:"40vh"}}>
       <CardMedia
