@@ -18,6 +18,7 @@ import nscc from  "../../assets/nscc.jpeg"
 import showcase from  "../../assets/showcase.jpeg"
 import algohit from  "../../assets/algohit.png"
 import irlamigo from  "../../assets/irlamigo.jpeg"
+import clickaway from  "../../assets/clickaway.png"
 
 
 
@@ -37,12 +38,12 @@ const Sponsors = () => {
         <SponsorCard
         
           url="https://i.ibb.co/WKjcHVd/left-image1.png"
-          sponsor="Gold Sponsor"
+          sponsor="Diamond Sponsor"
         />
         <SponsorCard
         
-          url="https://static.livebooks.com/f919bf8398a44c1ab7018265315e020f/i/ba2e915588db42459f3aaa75e1ac5d63/1/4SoifmQp7LJ6yDtMuFY2x/1_0_702_1coming_soon.jpg"
-          sponsor="Silver Sponsor"
+          url="https://i.ibb.co/3dg26rm/thinkagain.png"
+          sponsor="Gold Sponsor"
         />
       </div>
       <div className={styles.others}>
@@ -51,6 +52,7 @@ const Sponsors = () => {
           <img src="https://resources.jetbrains.com/storage/products/company/brand/logos/jb_beam.png" alt="JetBrains Logo (Main) logo." className={styles.otherSponsors}/>
           <img src={GMClogo} alt="Offensive Security" className={styles.otherSponsors}/>
           <img src={offseclogo} alt="Offensive Security" className={styles.otherSponsors}/>
+          <img src={clickaway} alt="clickaway" className={styles.otherSponsors}/>
           </div>
       </div>
       <div className={styles.others}>
@@ -72,6 +74,7 @@ const Sponsors = () => {
           <img src={showcase} alt="algo" className={styles.otherSponsors}/>
           <img src={algohit} alt="algo" className={styles.otherSponsors}/>
           <img src={irlamigo} alt="algo" className={styles.otherSponsors}/>
+         
          
           </div>
       </div>
