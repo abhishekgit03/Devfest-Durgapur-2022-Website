@@ -19,8 +19,11 @@ import showcase from  "../../assets/showcase.jpeg"
 import algohit from  "../../assets/algohit.png"
 import irlamigo from  "../../assets/irlamigo.jpeg"
 import clickaway from  "../../assets/clickaway.png"
-
-
+import gdgcloud from  "../../assets/gdgcloud.png"
+import vbdcss from  "../../assets/vbdcss.png"
+import ocy from  "../../assets/ocy.jpeg"
+import edugraph from  "../../assets/edugraph.png"
+import momomia from  "../../assets/momomia.png"
 
 const Sponsors = () => {
   return (
@@ -74,10 +77,26 @@ const Sponsors = () => {
           <img src={showcase} alt="algo" className={styles.otherSponsors}/>
           <img src={algohit} alt="algo" className={styles.otherSponsors}/>
           <img src={irlamigo} alt="algo" className={styles.otherSponsors}/>
-         
+          <img src={gdgcloud} alt="gdgcloud" className={styles.otherSponsors}/>
+          <img src={vbdcss} alt="vbdcss" className={styles.otherSponsors}/>
+          <img src={ocy} alt="ocy" className={styles.otherSponsors}/>
+          
          
           </div>
       </div>
+        <div className={styles.others}>
+          <h1>Media Partner</h1>
+          <div className={styles.mediapartnerbox}>
+          <img src={edugraph} alt="edugraph" className={styles.mediapartners}/>
+          </div>
+        </div>
+
+        <div className={styles.others}>
+          <h1>Food Partner</h1>
+          <div className={styles.mediapartnerbox}>
+          <img src={momomia} alt="momomia" className={styles.foodpartners}/>
+          </div>
+        </div>
     </div>
   );
 };
